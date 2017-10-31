@@ -18,8 +18,8 @@ Since github only allows up to 100mb, I just have default text file as input.
 But I've tried the code on bigger files, and here's the brief rundown of runtime for 3 files that I got from FEC.
 The runtime seems roughly O(2n) where n is the number of rows in the input. I used cProfile to keep track of the performance.
 
-50 MB: 10 secs
-75 MB: 36 secs
+50 MB: 10 secs /
+75 MB: 36 secs /
 350 MB: 150 secs
 
 Comments:
